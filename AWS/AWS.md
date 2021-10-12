@@ -91,10 +91,9 @@ AWS CloudFront를 접속후 배포 생성을 눌러서 원본도메인을 선택
 ![9](https://user-images.githubusercontent.com/81404026/136945883-e650e21e-7837-4244-bf24-98d9acb7782a.png)
 이제 이 화면에서 배포 도메인 이름을 복사해준뒤 내 Html 파일로 가서 이미지 경로란에 적어주도록 할게요
 ![10](https://user-images.githubusercontent.com/81404026/136945885-165ba377-8aa1-42d4-9cf8-65abd71fbbec.png)
+  <br>
 이제 이 파일을 버킷에 올리고 url로 접속하면!
 ![11](https://user-images.githubusercontent.com/81404026/136945887-18fb7c56-7321-4157-8be0-29ae9d1b8b4f.png)
-
-<br>
  이렇게 잘 적용된 모습을 볼 수 있습니다!
 <br>
 
