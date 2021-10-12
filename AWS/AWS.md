@@ -25,13 +25,16 @@ S3 버킷 만들기
 =====
 1.AWS사이트에서 S3접속하기.
 ----
+  
 ![1](https://user-images.githubusercontent.com/81404026/136945870-0bd9455a-a6f4-49d0-96c5-cdea60ef046b.png)
 <br>
 2.버킷 만들기 누르기
 ----
 여기서 버킷이름은 조건이 있습니다.
+  
 ![3](https://user-images.githubusercontent.com/81404026/136945875-c13ae8f0-ba98-4ea5-8baa-48d7330f5267.png)
 웨 규칙들을 지켜서 만들어야 합니다!
+  
 ![2](https://user-images.githubusercontent.com/81404026/136945873-9a2232f8-da1c-4fa5-9bcb-d6f40cfbd15f.png)
 
 설정방법
