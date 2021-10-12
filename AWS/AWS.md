@@ -93,7 +93,9 @@ AWS CloudFront를 접속후 배포 생성을 눌러서 원본도메인을 선택
 ![10](https://user-images.githubusercontent.com/81404026/136945885-165ba377-8aa1-42d4-9cf8-65abd71fbbec.png)
 이제 이 파일을 버킷에 올리고 url로 접속하면!
 ![11](https://user-images.githubusercontent.com/81404026/136945887-18fb7c56-7321-4157-8be0-29ae9d1b8b4f.png)
-이렇게 잘 적용된 모습을 볼 수 있습니다!
+
+<br>
+ 이렇게 잘 적용된 모습을 볼 수 있습니다!
 <br>
 
 내가 캐싱된 파일을 불러왔는지 확인하는 방법은 크롬 개발자 도구를 누른후 Network를 누르고 F5를 누르면 확인하실수 있으십니다.
