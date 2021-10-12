@@ -25,14 +25,14 @@ S3 버킷 만들기
 =====
 1.AWS사이트에서 S3접속하기.
 ----
-![screensh](1.png)
+![1](https://user-images.githubusercontent.com/81404026/136945870-0bd9455a-a6f4-49d0-96c5-cdea60ef046b.png)
 <br>
 2.버킷 만들기 누르기
 ----
 여기서 버킷이름은 조건이 있습니다.
-![scrrensh](3.png)
+![3](https://user-images.githubusercontent.com/81404026/136945875-c13ae8f0-ba98-4ea5-8baa-48d7330f5267.png)
 웨 규칙들을 지켜서 만들어야 합니다!
-![screensh](2.png)
+![2](https://user-images.githubusercontent.com/81404026/136945873-9a2232f8-da1c-4fa5-9bcb-d6f40cfbd15f.png)
 
 설정방법
 ===
@@ -50,10 +50,10 @@ Bucket 파일 업로드하기
 ----
 버킷을 만들고 나면 정적 웹 사이트 호스팅이란 옵션을 켜줘야 하는데 S3에 들어가서 속성을 누르고 아래로 내리면 옵션이 떠요 여기서 편집을 누르고 활성화 시켜주고 변경사항 저장누르기!.
 (인덱스 문서는 index.html이라 작성해주시면 되요)
-![screensh](4.png)
+![4](https://user-images.githubusercontent.com/81404026/136945877-f0061cf1-7bb7-4230-a7f5-345611617e3b.png)
 <br>
 이제 버킷 정책을 편집해줘야 하니 관리를 눌러서 버킷 정책 편집을 눌러 들어가줘요
-![screensh](5.png)
+![5](https://user-images.githubusercontent.com/81404026/136945878-b1268fa0-7cc3-4510-9c17-74290ae55cee.png)
 여기서 정책 생성기를 눌러서 들어가기전 버킷 ARN을 복사해주세요! 정책 생성기를 들어가면 <br>
 
 <li>Select Type of Policy는 S3 Bucket Policy로 설정해줘요
@@ -65,27 +65,27 @@ Bucket 파일 업로드하기
 그러면 이제 아래 Generate Policy라는 버튼이 나와요!이 버튼을 클릭해주세요
 클릭하면 아래 화면이 나올텐데 안에 있는 코드들을 복사해서 버킷 정책에다가 붙여놔주세요!
 
-![screensh](6.png)
+![6](https://user-images.githubusercontent.com/81404026/136945879-da85d350-1258-4a37-ad6a-f5e9384ce9ae.png)
 
 붙이고 나서 resourse 마지막 부분에 "/*" 를 입력하고 변경사항 저장을 눌러주세요.
 
 그러면 이제 내 S3 버킷에다가 파일을 업로드해볼까요?<br>
 파일을 이렇게 업로드하고
 
-![screensh](7.png)내가 원하는 파일의 url을 복사해서 웹에 붙여넣기 하면
+![7](https://user-images.githubusercontent.com/81404026/136945880-e5cfef02-f30d-43b9-95c0-0c896d299ca1.png)내가 원하는 파일의 url을 복사해서 웹에 붙여넣기 하면
 
-![screensh](8.png)이렇게 정상적으로 열리는걸 볼수 있어요!
+![8](https://user-images.githubusercontent.com/81404026/136945881-3b3e7ee0-6fcd-4338-8d2d-811b6add4fb9.png)이렇게 정상적으로 열리는걸 볼수 있어요!
 
 CloudFront 설정하기
 ====
 AWS CloudFront를 접속후 배포 생성을 눌러서 원본도메인을 선택하면 내가 만들어논 S3가 제일 위에 뜰거에요! 이걸 선택해주시고 다른것들은 기본값으로 하고 배포생성을 해주시면 되요.
-![screensh](9.png)
+![9](https://user-images.githubusercontent.com/81404026/136945883-e650e21e-7837-4244-bf24-98d9acb7782a.png)
 이제 이 화면에서 배포 도메인 이름을 복사해준뒤 내 Html 파일로 가서 이미지 경로란에 적어주도록 할게요
-![screensh](10.png)
+![10](https://user-images.githubusercontent.com/81404026/136945885-165ba377-8aa1-42d4-9cf8-65abd71fbbec.png)
 이제 이 파일을 버킷에 올리고 url로 접속하면!
-![screensh](11.png)
+![11](https://user-images.githubusercontent.com/81404026/136945887-18fb7c56-7321-4157-8be0-29ae9d1b8b4f.png)
 이렇게 잘 적용된 모습을 볼 수 있습니다!
 <br>
 
 내가 캐싱된 파일을 불러왔는지 확인하는 방법은 크롬 개발자 도구를 누른후 Network를 누르고 F5를 누르면 확인하실수 있으십니다.
-![screensh](12.png)
+![12](https://user-images.githubusercontent.com/81404026/136945892-a9cc79d5-bb7f-483d-ae8c-cfe6aa399b14.png)
