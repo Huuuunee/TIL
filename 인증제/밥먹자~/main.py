@@ -87,4 +87,4 @@ async def on_message(message):
         await message.channel.send("저녁 정보가 없어.")
 
 
-client.run('ODkwNTk1ODMwNjQwMzEyMzcw.YUyGAA.9_uXe6T0ny0S45w6-SCKgZNmlt4')
+client.run('TOKEN')
