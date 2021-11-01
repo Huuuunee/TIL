@@ -75,7 +75,7 @@ async def on_message(message):
       response = requests.get(url).text
       print(response)
       soup = bs(response,"lxml")
-      if soup.find("code").get_text() == "IFON-000":
+      if soup.find("code").get_text() == "INFO-000":
         for linebreak in soup.find_all("br"):
             linebreak.replace_with("\n")
         result = soup.find("ddish_nm").get_text()
