@@ -1,4 +1,4 @@
-﻿#pragma warning(disable:4996)
+#pragma warning(disable:4996)
 #pragma comment (lib,"ws2_32.lib")
 #pragma comment(lib,"winmm.lib")
 #include <winsock2.h>
