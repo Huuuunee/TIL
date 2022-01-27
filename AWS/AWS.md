@@ -36,7 +36,7 @@ S3 버킷 만들기
 여기서 버킷이름은 조건이 있습니다.
   
 ![3](https://user-images.githubusercontent.com/81404026/136945875-c13ae8f0-ba98-4ea5-8baa-48d7330f5267.png)
-웨 규칙들을 지켜서 만들어야 합니다!
+위 규칙들을 지켜서 만들어야 합니다!
   
 ![2](https://user-images.githubusercontent.com/81404026/136945873-9a2232f8-da1c-4fa5-9bcb-d6f40cfbd15f.png)
 
