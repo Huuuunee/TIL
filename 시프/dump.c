@@ -34,7 +34,6 @@ static int write_info(struct person *p){
         close(fd);
         return 0;
 }
-
 static int dump_info(void){
         int fd;
         ssize_t ret;
@@ -68,7 +67,7 @@ static int dump_info(void){
                         close(fd);
                         return -1;
                 }
-                                printf("%d",ret);
+                                printf("%zd",ret);
                 printf("name: %s, age: %d\n", p.name, p.age);
         }while(1);
 
