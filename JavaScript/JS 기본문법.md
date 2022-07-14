@@ -135,7 +135,7 @@ switch (조건) {
 while (i<10)
 {
     statment
-    i++
+    i += 1
 }
 ~~~
 
